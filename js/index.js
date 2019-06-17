@@ -91,17 +91,41 @@ p2[1].textContent = "About content elementum magna eros, ac posuere elvit tempus
 let MidImg = document.getElementById("middle-img");
 MidImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
+let service = document.querySelector('.bottom-content h4')
+service.textContent ="Services"
 
+let serviceContent = document.querySelector('.bottom-content p')
+serviceContent.textContent ="Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
+let product = document.querySelector('.bottom-content')
+let h4 = document.querySelectorAll('.bottom-content h4')
+h4[1].textContent = 'Product'
 
-//"about-h4":"About",
-//"about-content": "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-//"middle-img-src": "img/mid-page-accent.jpg",
-//"services-h4":"Services",
-//"services-content": "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-//"product-h4":"Product",
-//"product-content": "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-//"vision-h4":"Vision",
-//"vision-content": "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-//const secondHeading = document.querySelector('.second-heading');
+let productContent = document.querySelector('.bottom-content')
+let paraProduct = document.querySelectorAll('.bottom-content p')
+paraProduct[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
+let vision = document.querySelector('.bottom-content')
+let vh4 = document.querySelectorAll('.bottom-content h4')
+h4[2].textContent = "Vision"
+
+let VisionContent = document.querySelector('bottom-content')
+let paraVis = document.querySelectorAll('.bottom-content p')
+paraVis[2].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+let cont = document.querySelector('.contact h4')
+cont.textContent = "Contact"
+
+let add = document.querySelector('.contact p')
+add.textContent= "123 Way 456 Street SomeWhere, USA"
+
+let phone = document.querySelector('.contact')
+let phonep = document.querySelectorAll('.contact p')
+phonep[1].textContent = "1 (888) 888-8888"
+
+let email = document.querySelector('.contact')
+let emailp = document.querySelectorAll('.contact p')
+emailp[2].textContent = "sales@greatidea.io"
+
+let foot = document.querySelector('footer p')
+foot.textContent = "Copyright Great Idea! 2018"

@@ -44,27 +44,55 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 let nav = document.querySelector('nav')
 let anchortag = document.querySelectorAll('a')
 anchortag[0].textContent = "Services"
+anchortag[0].style.color = "green"
 
 let nav1 = document.querySelector('nav')
 let anchortag2 = document.querySelectorAll('a')
 anchortag2[1].textContent = "Product"
+anchortag2[1].style.color = "green"
 
 let nav2 = document.querySelector('nav')
 let anchortag3 = document.querySelectorAll('a')
 anchortag3[2].textContent = "Vision"
+anchortag3[2].style.color = "green"
 
 let nav3 = document.querySelector('nav')
 let anchortag4 = document.querySelectorAll('a')
 anchortag4[3].textContent = "Features"
+anchortag4[3].style.color = "green"
 
 let nav4 = document.querySelector('nav')
 let anchortag5 = document.querySelectorAll('a')
 anchortag5[4].textContent = "About"
+anchortag5[4].style.color = "green"
 
 let nav5 = document.querySelector('nav')
 let anchortag6 = document.querySelectorAll('a')
 anchortag6[5].textContent = "Contact"
+anchortag6[5].style.color = "green"
 
+let a = document.createElement('a');
+document.querySelector('nav');
+nav.appendChild(a)
+a.textContent = 'BLARG!!'
+
+let firsta = document.createElement('a')
+document.querySelector('nav')
+nav.prepend(firsta)
+firsta.textContent = "Okie-Doke"
+
+//var p = document.createElement("p");
+//document.body.appendChild(p);
+
+//parentElement.appendChild(childElement)
+
+//let navColor = document.querySelectorAll('a')
+//navColor.style.color = "green"
+/*
+const someClass = document.querySelector('.some-class');
+
+someClass.style.backgroundColor = "gray";
+*/
 const DomHead = document.querySelector(".cta-text h1") 
 DomHead.textContent = "DOM is awesome"
 
